@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:testing"
+             x:Class="testing.MainPage">
+
+    <StackLayout Padding="30" Spacing="30" BackgroundColor="#FFBF00">
+        <!-- Place new controls here -->
+        <Image Source="cep-logo.png" x:Name="Logo"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" TextColor="#000000" x:Name="edtCep"/>
+        <Button Text="Buscar CEP" BackgroundColor="#00416B" TextColor="#FFFFFF" x:Name="btnBuscarCep"/>
+        <Label Text="" x:Name="lblEndereco"/>
+    </StackLayout>
+
+</ContentPage>
